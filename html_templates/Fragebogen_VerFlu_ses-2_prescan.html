@@ -1,0 +1,365 @@
+<html>
+<link rel="stylesheet" href="Schema_weiß.css">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body>    <body>
+      <img src="Greifswald_Logo.jpg" alt="Logo"  class="center"/>
+   </body> 
+     <h1 id="title">Verbal Fluency:TDCS Modulation gesunder Sprachnetzwerke</h1>
+    <form action="/" method="post">
+
+
+       <div> 
+        <p><label for="Vorname">Vorname:</label>
+      <input id="Vorname" name="Vorname" type="text">
+ 
+       <label for="Nachname">Nachname:</label>
+      <input id="Nachname" name="Nachname" type="text">
+      </p> </div>
+  <div>
+      <label id="Datum-label" for="Datum">Datum:</label>
+      <input type="date" required id="Datum" name="Datum" placeholder="dd-mm-yyyy"> 
+        <label for="ID-label">ID:</label>
+      <input type="text" id="ID" name="ID" placeholder=""> 
+    <label id="Tag-label" for="Tag">Tag:</label>
+      <input type="number" required id="Tag" name="Tag" placeholder="">
+  </div>
+ 
+
+  <!-- ------------------Fragebogen zur Erfassung der Ausgangslage (FAL)---------------------------- -->  
+  
+ <fieldset>
+<h2 id="subtitle">Fragebogen zur Erfassung der Ausgangslage (FAL) </h2>
+<div>
+<p> Anweisung <br> Die folgenden Angaben sind wichtig für die Auswertung der Untersuchungsergebnisse. Wir bitten Sie daher, die Fragen ehrlich zu beantworten (selbst wenn Sie die Ihnen bekannten Verhaltensrichtlinien aus irgendwelchen Gründen nicht einhalten konnten). Bedenken Sie bitte, dass Sie uns in keinem Fall mit unwahren Antworten dienen. </p>
+</div>
+
+<div>
+<p> Kreuzen Sie im Folgenden jeweils das für Sie Zutreffende an. </p>
+</div>
+
+
+ <div>
+      <label id=Erkältung for="Erkältung"> 1 a) fühlen Sie sich zur Zeit unwohl, z.B. wegen einer Erkältung?:</label>
+      <p>
+        <input type="radio" name="Erkältung" value="ja" > ja 
+        <input type="radio" name="Erkältung" value="nein" > nein <br>
+        <br>
+  	b) Wenn ja, dann geben Sie bitte Ihre Beschwerden genau an: die Art, die bisherige Stärke und Dauer: <br>
+      <textarea id="Erkältungssymptome" name="Erkältungssymptome" rows="4" cols="90" placeholder="Text hier eintragen"></textarea>   
+      </p>
+    </div>
+
+ <div>
+      <label id=Kaffee for="Kaffee"> 2 a) Vor wie vielen Stunden haben Sie zuletzt Kaffee, schwarzen Tee oder Cola zu sich genommen ?</label>
+      <p> Vor
+        <input type="number" name="Stunden_Kaffee" value="Stunden_Kaffee" > Stunden <br>
+        <br>
+   Was genau? Wie viel? <br>
+      <textarea id="Kaffee" name="Kaffee" rows="4" cols="90" placeholder="Text hier eintragen"></textarea>   
+      <br>
+       b) Vor wie vielen Stunden haben Sie zuletzt alkoholische Getränke zu sich genommen? Vor
+        <input type="number" name="Stunden_Alkohol" value="Stunden_Alkohol" > Stunden <br>
+        <br>
+         Was genau? Wie viel? <br>
+      <textarea id="Alkohol" name="Alkohol" rows="4" cols="90" placeholder="Text hier eintragen"></textarea>   
+      </p>
+    </div>
+
+<div>
+      <label id=Rauchen for="Rauchen"> 3 Wie viele Zigaretten, Zigarren oder Pfeifen haben Sie in den letzten 5 Stunden geraucht? (Bitte Anzahhl und Art der Rauchware angeben)</label>
+      <p>
+
+      <textarea id="Rauchen" name="Rauchen" rows="4" cols="90" placeholder="Text hier eintragen"></textarea>   
+      </p>
+    </div>
+
+<div>
+      <label id=Essen for="Essen"> 4 Vor wie vielen Stunden haben Sie zuletzt gegessen?</label>
+      <p> Vor
+        <input type="number" name="Stunden_Essen" value="Stunden_Essen" > Stunden
+	Was genau? Wie viel? <br>
+      <textarea id="Essen" name="Essen" rows="4" cols="90" placeholder="Text hier eintragen"></textarea>   
+      </p>
+    </div>
+
+
+  <fieldset>
+    <label id="Schlaf" for="Schlaf">Wie haben Sie vergangene nacht geschlafen? </label>
+    <p>
+      <input type="radio" name="Schlaf" value="Ausgezeichnet"> Ausgezeichnet
+      <input type="radio" name="Schlaf" value="Sehr gut"> Sehr gut
+      <input type="radio" name="Schlaf" value="Gut"> Gut
+      <input type="radio" name="Schlaf" value="Mittel" > Mittel
+      <input type="radio" name="Schlaf" value="Schlecht" > Schlecht
+      <input type="radio" name="Schlaf" value="Sehr schlecht" > Sehr schlecht
+      <input type="radio" name="Schlaf" value="Miserabel" > Miserabel <br>
+      <br>
+      b) Wie viele Stunden haben Sie vergangene Nach geschlafen? 
+       <input type="number" name="Stunden_Schlaf" value="Stunden_Schlaf" placeholder="Anzahl Stunden" > <br>
+       c) Wie viele Stunden schlafen Sie gewöhnlich?
+       <input type="number" name="Stunden_gew_Schlaf" value="Stunden_gew_Schlaf" placeholder="Anzahl Stunden" > 
+       
+    </p>
+  </fieldset>
+      
+      
+        <fieldset>
+    <label id="Beschäftigung" for="Beschäftigung">
+    <p>
+    6 a) Womit haben Sie sich die letzten 2 Stunden überwiegend beschäftigt? </label>
+	<textarea id="Beschäftigun_text" name="Essen" rows="4" cols="90" placeholder="Text hier eintragen"></textarea>
+	<br>
+	b) Wie sehr strengte Sie diese Tätigkeit geistig-nervlich an? <br>
+	<br>
+      <input type="radio" name="b_Beschäftigung" value="6"> Äußerst
+      <input type="radio" name="b_Beschäftigung" value="5"> Sehr
+      <input type="radio" name="b_Beschäftigung" value="4"> Etwas
+      <input type="radio" name="b_Beschäftigung" value="3" > Mittelmäßig
+      <input type="radio" name="b_Beschäftigung" value="2" > Wenig
+      <input type="radio" name="b_Beschäftigung" value="1" > Fast nicht
+      <input type="radio" name="b_Beschäftigung" value="0" > Überhaupt nicht <br>
+  	<br>
+       c) Wie sehr strengte Sie diese Tätigkeit körperlich an? <br>
+       <br>
+      <input type="radio" name="c_Beschäftigung" value="6"> Äußerst
+      <input type="radio" name="c_Beschäftigung" value="5"> Sehr
+      <input type="radio" name="c_Beschäftigung" value="4"> Etwas
+      <input type="radio" name="c_Beschäftigung" value="3" > Mittelmäßig
+      <input type="radio" name="c_Beschäftigung" value="2" > Wenig
+      <input type="radio" name="c_Beschäftigung" value="1" > Fast nicht
+      <input type="radio" name="c_Beschäftigung" value="0" > Überhaupt nicht <br>
+    </p>
+  </fieldset>
+      
+      <!-- Medikamente schon weiter oben abgefragt -->
+      
+      
+      <fieldset>
+    <label id="Ausschlusskriterien" for="Ausschlusskriterien">Ausschlusskriterien</label>
+    <p>
+      <input type="checkbox" name="A_Alkohol" value="Alkohol"> In den letzten 8 Stunden Alkohol getrunken<br>
+      <input type="checkbox" name="A_Schlaf" value="A_Schlaf"> Weniger als 5 Stunden Schlaf <br>
+      <input type="checkbox" name="A_Kaffee" value="A_Kaffee"> 1.5 Stunden vorher Kaffee, Cola oder schwarzen/grünen Tee getrunken <br>
+      <input type="checkbox" name="A_rauchen" value="A_rauchen" > Mehr als gewöhnlich geraucht<br>
+      <input type="checkbox" name="A_Medikamente" value="A_Medikamente" > Beeinträchtigende Medikamente vor dem Versuch<br>
+      <input type="checkbox" name="A_Unwohlsein" value="A_Unwohlsein" > Starkes Unwohlsein <br>
+    </p>
+  </fieldset>
+      
+
+ </fieldset>
+
+ <!-- ------------------Positive and negative affect scale (PANAS)---------------------------- -->  
+  
+ <fieldset>
+<h2 id="subtitle"> Positive and negative affect scale (PANAS) </h2>
+
+<h3 id="subtitle"> Tag1 pre-Scan </h3>
+
+<div>
+      <label id="Datum-label_Tag1_pre_Scan" for="Datum">Datum:</label>
+      <input type="date" required id="Datum_Tag1_pre_Scan" name="Datum" placeholder=""> 
+        <label for="ID-label_Tag1_pre_Scan">ID:</label>
+      <input type="text" id="ID_Tag1_pre_Scan" name="ID" placeholder=""> 
+    
+  </div>
+
+<p> Bitte stufen Sie ein, wie Sie sich <strong> im Moment </strong> fühlen: </p>
+
+       <fieldset>
+       <!-- <legend>Tag1 pre-Scan</legend> -->
+    <label id="Aktiv" for="Aktiv">Aktiv:</label> 
+    <p>    
+       <input type="radio" name="Aktiv" value="gar nicht"> gar nicht
+      <input type="radio" name="Aktiv" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Aktiv" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Aktiv" value="erheblich"> erheblich
+      <input type="radio" name="Aktiv" value="äußerst"> äußerst
+    </p>
+
+    <label id="Interessiert" for="Interessiert">Interessiert:</label>
+    <p> 
+      <input type="radio" name="Interessiert" value="gar nicht"> gar nicht
+      <input type="radio" name="Interessiert" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Interessiert" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Interessiert" value="erheblich"> erheblich
+      <input type="radio" name="Interessiert" value="äußerst"> äußerst
+    </p>
+
+    <label id="Freudig erregt" for="Freudig erregt">Freudig erregt:</label>
+    <p> 
+      <input type="radio" name="Freudig erregt" value="gar nicht"> gar nicht
+      <input type="radio" name="Freudig erregt" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Freudig erregt" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Freudig erregt" value="erheblich"> erheblich
+      <input type="radio" name="Freudig erregt" value="äußerst"> äußerst
+    </p>
+
+    <label id="Stark" for="Stark">Stark:</label>
+    <p> 
+      <input type="radio" name="Stark" value="gar nicht"> gar nicht
+      <input type="radio" name="Stark" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Stark" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Stark" value="erheblich"> erheblich
+      <input type="radio" name="Stark" value="äußerst"> äußerst
+    </p>
+
+    <label id="Angeregt" for="Angeregt">Angeregt:</label>
+    <p> 
+      <input type="radio" name="Angeregt" value="gar nicht"> gar nicht
+      <input type="radio" name="Angeregt" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Angeregt" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Angeregt" value="erheblich"> erheblich
+      <input type="radio" name="Angeregt" value="äußerst"> äußerst
+    </p>
+
+    <label id="Stolz" for="Stolz">Stolz:</label>
+    <p> 
+      <input type="radio" name="Stolz" value="gar nicht"> gar nicht
+      <input type="radio" name="Stolz" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Stolz" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Stolz" value="erheblich"> erheblich
+      <input type="radio" name="Stolz" value="äußerst"> äußerst
+    </p>
+
+    <label id="Begeistert" for="Begeistert">Begeistert:</label>
+    <p> 
+      <input type="radio" name="Begeistert" value="gar nicht"> gar nicht
+      <input type="radio" name="Begeistert" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Begeistert" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Begeistert" value="erheblich"> erheblich
+      <input type="radio" name="Begeistert" value="äußerst"> äußerst
+    </p>
+
+    <label id="Wach" for="Wach">Wach:</label>
+    <p> 
+      <input type="radio" name="Wach" value="gar nicht"> gar nicht
+      <input type="radio" name="Wach" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Wach" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Wach" value="erheblich"> erheblich
+      <input type="radio" name="Wach" value="äußerst"> äußerst
+    </p>
+
+    <label id="Entschlossen" for="Entschlossen">Entschlossen:</label>
+    <p> 
+      <input type="radio" name="Entschlossen" value="gar nicht"> gar nicht
+      <input type="radio" name="Entschlossen" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Entschlossen" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Entschlossen" value="erheblich"> erheblich
+      <input type="radio" name="Entschlossen" value="äußerst"> äußerst
+    </p>
+ 
+    <label id="Aufmerksam" for="Aufmerksam">Aufmerksam:</label>
+    <p> 
+      <input type="radio" name="Aufmerksam" value="gar nicht"> gar nicht
+      <input type="radio" name="Aufmerksam" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Aufmerksam" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Aufmerksam" value="erheblich"> erheblich
+      <input type="radio" name="Aufmerksam" value="äußerst"> äußerst
+    </p>
+
+    <label id="Bekümmert" for="Bekümmert">Bekümmert:</label>
+    <p> 
+      <input type="radio" name="Bekümmert" value="gar nicht"> gar nicht
+      <input type="radio" name="Bekümmert" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Bekümmert" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Bekümmert" value="erheblich"> erheblich
+      <input type="radio" name="Bekümmert" value="äußerst"> äußerst
+    </p>
+
+    <label id="Verärgert" for="Verärgert">Verärgert:</label>
+    <p> 
+      <input type="radio" name="Verärgert" value="gar nicht"> gar nicht
+      <input type="radio" name="Verärgert" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Verärgert" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Verärgert" value="erheblich"> erheblich
+      <input type="radio" name="Verärgert" value="äußerst"> äußerst
+    </p>
+
+    <label id="Schuldig" for="Schuldig">Schuldig:</label>
+    <p> 
+      <input type="radio" name="Schuldig" value="gar nicht"> gar nicht
+      <input type="radio" name="Schuldig" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Schuldig" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Schuldig" value="erheblich"> erheblich
+      <input type="radio" name="Schuldig" value="äußerst"> äußerst
+    </p>
+
+    <label id="Erschrocken" for="Erschrocken">Erschrocken:</label>
+    <p> 
+      <input type="radio" name="Erschrocken" value="gar nicht"> gar nicht
+      <input type="radio" name="Erschrocken" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Erschrocken" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Erschrocken" value="erheblich"> erheblich
+      <input type="radio" name="Erschrocken" value="äußerst"> äußerst
+    </p>
+
+    <label id="Feindselig" for="Feindselig">Feindselig:</label>
+    <p> 
+      <input type="radio" name="Feindselig" value="gar nicht"> gar nicht
+      <input type="radio" name="Feindselig" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Feindselig" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Feindselig" value="erheblich"> erheblich
+      <input type="radio" name="Feindselig" value="äußerst"> äußerst
+    </p>
+
+    <label id="Gereizt" for="Gereizt">Gereizt:</label>
+    <p> 
+      <input type="radio" name="Gereizt" value="gar nicht"> gar nicht
+      <input type="radio" name="Gereizt" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Gereizt" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Gereizt" value="erheblich"> erheblich
+      <input type="radio" name="Gereizt" value="äußerst"> äußerst
+    </p>
+
+    <label id="Beschämt" for="Beschämt">Beschämt:</label>
+    <p> 
+      <input type="radio" name="Beschämt" value="gar nicht"> gar nicht
+      <input type="radio" name="Beschämt" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Beschämt" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Beschämt" value="erheblich"> erheblich
+      <input type="radio" name="Beschämt" value="äußerst"> äußerst
+    </p>
+
+    <label id="Nervös" for="Nervös">Nervös:</label>
+    <p> 
+      <input type="radio" name="Nervös" value="gar nicht"> gar nicht
+      <input type="radio" name="Nervös" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Nervös" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Nervös" value="erheblich"> erheblich
+      <input type="radio" name="Nervös" value="äußerst"> äußerst
+    </p>
+ 
+    <label id="Durcheinander" for="Durcheinander">Durcheinander:</label>
+    <p> 
+      <input type="radio" name="Durcheinander" value="gar nicht"> gar nicht
+      <input type="radio" name="Durcheinander" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Durcheinander" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Durcheinander" value="erheblich"> erheblich
+      <input type="radio" name="Durcheinander" value="äußerst"> äußerst
+    </p>
+
+    <label id="Ängstlich" for="Ängstlich">Ängstlich:</label>
+    <p> 
+      <input type="radio" name="Ängstlich" value="gar nicht"> gar nicht
+      <input type="radio" name="Ängstlich" value="ein bisschen"> ein bisschen
+      <input type="radio" name="Ängstlich" value="einigermaßen"> einigermaßen
+      <input type="radio" name="Ängstlich" value="erheblich"> erheblich
+      <input type="radio" name="Ängstlich" value="äußerst"> äußerst
+    </p>
+
+ </fieldset>  
+ <fieldset>  
+ <p> Wenn Sie alles Felder ausgefüllt haben, speichern Sie bitte vor dem Beenden des Fragebogens die html Seite folgendermaßen. Drücken Sie Strg-s oder klicken sie auf das Anwendungsmenü unter "Save Page As". <br>  <br> 
+ Wählen Sie den Dateinamen nach folgenden Muster <br> <br> "ProbandenID_Tag_Fragebogen.html" <br> (Bsp. VerFlu_TI_sub0n_Tag1_Fragebogen1.html). <br> <br>
+ Nun können Sie die Unterlagen senden.
+ </p> 
+  </fieldset>  
+  <div id="submitbutton">
+    <button type="submit" id="submit" value="✓">Senden der Unterlagen</button>   </div>
+
+</form>
+  </div> 
+  <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation -->
